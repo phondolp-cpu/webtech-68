@@ -13,43 +13,56 @@
             <a href="#contact">ติดต่อ</a>
         </nav>
     </header>
-    <center>
-        <nav>
-            <a href="index.html">หน้าแรก</a> |
-            <a href="aboutme.html">เกี่ยวกับฉัน</a> |
-            <a href="best.html">ภูตะวัน</a> |
-            <a href="kon.html">เฉลิมพร</a> |
-            <a href="ice.html">ศุภวิชญ์</a> |
-            <a href="man.html">ณัฐพัฒน์</a>
-        </nav>
-    </center>
-    <hr>
-    <center>
-        <h2>Welcome to Phatthadon</h2>
-        <p>This is my first webpage!</p>
-        <h2>About Me</h2>
-        <p>I am learning HTML.</p>
-        <h2>My Favorite Fruits</h2>
-        <p>
-            • Grape<br>
-            • Banana<br>
-            • Apple
-        </p>
-        <h2>Useful Link</h2>
-        <p>
-            <a href="https://www.w3schools.com" target="_blank">
-                Learn HTML at W3Schools
-            </a>
-        </p>
-        <hr>
-        <p>
-            <button onclick="location.href='aboutme.html'">
-                Next
-            </button>
-        </p>
-        <p>
-            <small>© 2025 Phatthadon Phondol</small>
-        </p>
-    </center>
+    <main>
+        <!-- ส่วน Hero -->
+        <section>
+            <h2>กาแฟดี ๆ เริ่มต้นที่นี่</h2>
+            <p>คัดสรรเมล็ดกาแฟคุณภาพจากดอยสูง ชงสดใหม่ทุกแก้ว</p>
+        </section>
+        <!-- ส่วนเมนู -->
+        <section>
+            <h2>เมนูแนะนำ</h2>
+            <!-- จะเพิ่มการ์ดเมนูใน Section 2 -->
+            <div>
+                <!-- การ์ดเมนูที่ 1 -->
+                <div>
+                    <h3>☕ Espresso</h3>
+                    <p>เข้มข้น หอมกรุ่น คั่วกลางจากดอยช้าง</p>
+                    <p class="price">ราคา: <span>฿55</span></p>
+                </div>
+                <!-- การ์ดที่ 2 -->
+                <div>
+                    <h3>🍵 Matcha Latte</h3>
+                    <p>ชาเขียวเกรดพรีเมียมจากอุจิ</p>
+                    <p class="price">฿75</p>
+                </div>
+                <!-- การ์ดที่ 3 -->
+                <div>
+                    <h3>🧊 Cold Brew</h3>
+                    <p>สกัดเย็น 18 ชั่วโมง นุ่มลึก</p>
+                    <p class="price">฿65</p>
+                </div>
+            </div>
+        </section>
+        <!-- เรื่องราวร้าน — เนื้อหาอิสระ ใช้ <article> -->
+        <article>
+            <h2>เรื่องราวของเรา</h2>
+            <p>Leaf & Bean Café เกิดจากความรักในกาแฟ...</p>
+            <figure>
+                <img src="cafe-interior.jpg" alt="บรรยากาศภายในร้าน">
+                <figcaption>บรรยากาศสบาย ๆ ภายใน Leaf & Bean Café</figcaption>
+            </figure>
+        </article>
+    </main>
+    <aside>
+        <h3>🕐 เวลาเปิด-ปิด</h3>
+        <p>จันทร์ - ศุกร์: 7:00 - 20:00</p>
+        <p>เสาร์ - อาทิตย์: 8:00 - 21:00</p>
+        <p>สถานะ: <span>เปิดอยู่</span></p>
+    </aside>
+    <footer>
+        <p>&copy; 2026 Leaf & Bean Café</p>
+        <p>📍 ม.ศิลปากร วิทยาเขตสนามจันทร์ จ.นครปฐม</p>
+    </footer>
 </body>
 </html>
